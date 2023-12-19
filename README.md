@@ -21,7 +21,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 
 ### 2.2.1 Aralık 1. Hafta sprint hedefi:
 
-#### Aralık 2. Hafta: (11 - 17 Aralık)
+#### Aralık 2. Hafta: ~~(11 - 17 Aralık)~~ (18 - 24 Aralık)
 1. [ ] Şifreleme metotlarının tespiti.
    1. Hedef gün: 1 gün.
    2. Yapım süresi: ?
@@ -36,7 +36,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
    2. Yapım süresi: ?
 
 
-#### Aralık 3. hafta: (18 - 24 Aralık) (!Gün sayısı planlanacak)
+#### Aralık 3. hafta: ~~(18 - 24 Aralık)~~ (25 - 31 Aralık) (!Gün sayısı planlanacak)
 1. [ ] Go ile dosya manipülasyonları, okuma, yazma
 2. [ ] Dosya şifreleme denemeleri
 

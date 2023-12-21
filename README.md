@@ -23,7 +23,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 
 #### Aralık 2. Hafta: ~~(11 - 17 Aralık)~~ (18 - 24 Aralık)
 1. [&#x2713;] Şifreleme metotlarının tespiti.
-   1. Hedef gün: 1 gün.
+   1. Hedef süre: 1 gün.
    2. Yapım süresi / Bitiş tarihi: 1 gün / 21.12.2023
    3. Bulgular: 
       1. AES (Advanced Encryption Standard), verileri şifrelemek ve şifresini çözmek için kullanılan bir simetrik şifreleme algoritmasıdır. Bu algoritma, özellikle hassas bilgilerin güvenliğini sağlamak amacıyla tasarlanmıştır. AES, 128, 192 ve 256 bit olmak üzere üç farklı anahtar uzunluğu ile kullanılabilir.
@@ -36,17 +36,25 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
          3. ECC, anahtar değişiminde, dijital imzalarda ve diğer kriptografik uygulamalarda kullanılır. Daha küçük anahtar uzunluklarıyla yüksek güvenlik seviyeleri sağlaması, özellikle mobil cihazlar ve internet of things (IoT) gibi kaynak sınırlı ortamlarda avantajlıdır.
 
 
-2. [&#x2713;] Metin şifreleme yapılması
-   1. Hedef gün: 2 gün.
+2. [&#x2713;] AES Metin şifreleme yapılması
+   1. Hedef süre: 2 gün.
    2. Yapım süresi / Bitiş Tarihi: 1 gün / 21.12.2023
    3. Bulgular: 
       1. Metin şifreleme için crpyto kütüphanesi kullanıldı.
       2. @huseyinozsoy katkıları ile bu taraf 21.12.2023 de test olarak tamamlanmıştır. 
-3. [ ] Metin şifre çözümleme yapılması
+3. [&#x2713;] AES Metin şifre çözümleme yapılması
    1. Hedef gün: 1 gün.
-   2. Yapım süresi: ?
-4. [ ] AES-256 ve eliptic curve algoritmalarının doğru çalıştırılması
-   1. Hedef gün: 3 gün.
+   2. Yapım süresi: 1 gün / 21.12.2023
+   3. Bulgular:
+      1. AES-256 şifreleme ve çözme işlemleri için ayrıca PKCS dolgusu ekleyip kaldırma işlemi yapılması gerekiyor. Bu metotta koda eklenmiştir.
+4. Eliptic Curve ile şifreleme ve şifre çözümleme işlemleri yapılması:
+   1. Hedef süre: 2 gün.
+   2. Yapılması gerekenler: 
+      1. Eliptic Curve algoritması anlaşılması
+      2. GoLang ile uygulanması
+      3. ECCEncrpyt() ve ECCDecrypt() metotlarının main.go içerisine yazılması
+5. [ ] AES-256 ve eliptic curve algoritmalarının doğru çalıştırılması
+   1. Hedef süre: 3 gün.
    2. Yapım süresi: ?
 
 

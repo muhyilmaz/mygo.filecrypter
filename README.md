@@ -25,6 +25,9 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 1. [ ] Şifreleme metotlarının tespiti.
    1. Hedef gün: 1 gün.
    2. Yapım süresi: ?
+   3. Bulgular: 
+
+
 2. [ ] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.
    2. Yapım süresi: ?

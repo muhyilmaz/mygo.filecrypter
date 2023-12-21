@@ -36,7 +36,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
          3. ECC, anahtar değişiminde, dijital imzalarda ve diğer kriptografik uygulamalarda kullanılır. Daha küçük anahtar uzunluklarıyla yüksek güvenlik seviyeleri sağlaması, özellikle mobil cihazlar ve internet of things (IoT) gibi kaynak sınırlı ortamlarda avantajlıdır.
 
 
-2. [:heavy_check_mark:] Metin şifreleme yapılması
+2. [&#x2713;] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.
    2. Yapım süresi / Bitiş Tarihi: 1 gün / 21.12.2023
    3. Bulgular: 

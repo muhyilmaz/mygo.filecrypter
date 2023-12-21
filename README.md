@@ -22,9 +22,9 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 ### 2.2.1 Aralık 1. Hafta sprint hedefi:
 
 #### Aralık 2. Hafta: ~~(11 - 17 Aralık)~~ (18 - 24 Aralık)
-1. [ ] Şifreleme metotlarının tespiti.
+1. [X] Şifreleme metotlarının tespiti.
    1. Hedef gün: 1 gün.
-   2. Yapım süresi: ?
+   2. Yapım süresi / Bitiş tarihi: 1 gün / 21.12.2023
    3. Bulgular: 
       1. AES (Advanced Encryption Standard), verileri şifrelemek ve şifresini çözmek için kullanılan bir simetrik şifreleme algoritmasıdır. Bu algoritma, özellikle hassas bilgilerin güvenliğini sağlamak amacıyla tasarlanmıştır. AES, 128, 192 ve 256 bit olmak üzere üç farklı anahtar uzunluğu ile kullanılabilir.
          1. Simetrik şifreleme: AES, aynı anahtarın hem şifreleme hem de şifre çözme işlemlerinde kullanıldığı bir simetrik şifreleme algoritmasıdır. Bu, iletişim taraflarının aynı anahtarı paylaşması gerektiği anlamına gelir.
@@ -38,7 +38,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 
 2. [X] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.
-   2. Yapım süresi: ?
+   2. Yapım süresi / Bitiş Tarihi: 1 gün / 21.12.2023
    3. Bulgular: 
       1. Metin şifreleme için crpyto kütüphanesi kullanıldı.
       2. @huseyinozsoy katkıları ile bu taraf 21.12.2023 de test olarak tamamlanmıştır. 

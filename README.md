@@ -28,9 +28,12 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
    3. Bulgular: 
 
 
-2. [ ] Metin şifreleme yapılması
+2. [X] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.
    2. Yapım süresi: ?
+   3. Bulgular: 
+      1. Metin şifreleme için crpyto kütüphanesi kullanıldı.
+      2. @huseyinozsoy katkıları ile bu taraf 21.12.2023 de test olarak tamamlanmıştır. 
 3. [ ] Metin şifre çözümleme yapılması
    1. Hedef gün: 1 gün.
    2. Yapım süresi: ?

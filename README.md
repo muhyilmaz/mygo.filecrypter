@@ -22,7 +22,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 ### 2.2.1 Aralık 1. Hafta sprint hedefi:
 
 #### Aralık 2. Hafta: ~~(11 - 17 Aralık)~~ (18 - 24 Aralık)
-1. [X] Şifreleme metotlarının tespiti.
+1. [:heavy_check_mark:] Şifreleme metotlarının tespiti.
    1. Hedef gün: 1 gün.
    2. Yapım süresi / Bitiş tarihi: 1 gün / 21.12.2023
    3. Bulgular: 
@@ -36,7 +36,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
          3. ECC, anahtar değişiminde, dijital imzalarda ve diğer kriptografik uygulamalarda kullanılır. Daha küçük anahtar uzunluklarıyla yüksek güvenlik seviyeleri sağlaması, özellikle mobil cihazlar ve internet of things (IoT) gibi kaynak sınırlı ortamlarda avantajlıdır.
 
 
-2. [X] Metin şifreleme yapılması
+2. [:heavy_check_mark:] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.
    2. Yapım süresi / Bitiş Tarihi: 1 gün / 21.12.2023
    3. Bulgular: 

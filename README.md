@@ -26,7 +26,10 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
    1. Hedef gün: 1 gün.
    2. Yapım süresi: ?
    3. Bulgular: 
-
+      1. AES (Advanced Encryption Standard), verileri şifrelemek ve şifresini çözmek için kullanılan bir simetrik şifreleme algoritmasıdır. Bu algoritma, özellikle hassas bilgilerin güvenliğini sağlamak amacıyla tasarlanmıştır. AES, 128, 192 ve 256 bit olmak üzere üç farklı anahtar uzunluğu ile kullanılabilir.
+      2. Simetrik şifreleme: AES, aynı anahtarın hem şifreleme hem de şifre çözme işlemlerinde kullanıldığı bir simetrik şifreleme algoritmasıdır. Bu, iletişim taraflarının aynı anahtarı paylaşması gerektiği anlamına gelir.
+      3. AES, 128, 192 ve 256 bit anahtar uzunluklarıyla kullanılabilir. Anahtar uzunluğu arttıkça genel güvenlik artar, ancak işlemler daha yavaş hale gelir.
+      4. AES, veriyi belirli boyutlardaki bloklar halinde şifreler. Standart olarak 128 bitlik bloklar kullanılır. Şifreleme işlemi her blok için ayrı ayrı gerçekleştirilir.
 
 2. [X] Metin şifreleme yapılması
    1. Hedef gün: 2 gün.

@@ -22,7 +22,7 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
 ### 2.2.1 Aralık 1. Hafta sprint hedefi:
 
 #### Aralık 2. Hafta: ~~(11 - 17 Aralık)~~ (18 - 24 Aralık)
-1. [:heavy_check_mark:] Şifreleme metotlarının tespiti.
+1. [&#x2713;] Şifreleme metotlarının tespiti.
    1. Hedef gün: 1 gün.
    2. Yapım süresi / Bitiş tarihi: 1 gün / 21.12.2023
    3. Bulgular: 

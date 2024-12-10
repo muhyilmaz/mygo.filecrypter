@@ -7,13 +7,13 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
+	"os"
 )
 
 func main() {
 	key := generateRandomKey()
 
 	plaintext := "muhammed yılmaz"
-
 	encryptedText, err := AesEncrypt(plaintext, key)
 	if err != nil {
 		fmt.Println("Şifreleme hatası:", err)
@@ -27,8 +27,13 @@ func main() {
 		return
 	}
 	fmt.Printf("Çözülmüş metin: %s\n", decryptedText)
+	filePathToRead := "filePathtoread"
+	readFileName := ReadFile(filePathToRead)
+	fmt.Printf("Dosya ismi: %s", readFileName)
+
 }
 
+// #region AES Encryption Decryption
 func generateRandomKey() []byte {
 	key := make([]byte, 32)
 	if _, err := rand.Read(key); err != nil {
@@ -108,3 +113,17 @@ func pkcs7Unpadding(plaintext []byte) []byte {
 	unpadding := int(plaintext[length-1])
 	return plaintext[:(length - unpadding)]
 }
+
+//#endregion
+
+// #region Read Write File
+func ReadFile(filePath string) string {
+	file, err := os.ReadFile(filePath)
+	if err != nil {
+		return "Dosya bulunamadı!"
+	}
+
+	return string(file)
+}
+
+// #endregion

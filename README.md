@@ -47,10 +47,11 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
    2. Yapım süresi: 1 gün / 21.12.2023
    3. Bulgular:
       1. AES-256 şifreleme ve çözme işlemleri için ayrıca PKCS dolgusu ekleyip kaldırma işlemi yapılması gerekiyor. Bu metotta koda eklenmiştir.
-4. Eliptic Curve ile şifreleme ve şifre çözümleme işlemleri yapılması:
+4. [] Eliptic Curve ile şifreleme ve şifre çözümleme işlemleri yapılması:
    1. Hedef süre: 2 gün.
    2. Yapılması gerekenler: 
       1. Eliptic Curve algoritması anlaşılması
+         1. ECC nedir?
       2. GoLang ile uygulanması
       3. ECCEncrpyt() ve ECCDecrypt() metotlarının main.go içerisine yazılması
 5. [ ] AES-256 ve eliptic curve algoritmalarının doğru çalıştırılması
@@ -58,8 +59,12 @@ Aşağıdaki alt başlıklarda proje başlangıç tarihinden itibaren sprintler 
    2. Yapım süresi: ?
 
 
-#### Aralık 3. hafta: ~~(18 - 24 Aralık)~~ (25 - 31 Aralık) (!Gün sayısı planlanacak)
-1. [ ] Go ile dosya manipülasyonları, okuma, yazma
+#### Aralık 3. hafta: ~~(18 - 24 Aralık)~~ ~~(25 - 31 Aralık)~~ (11 - 13 Aralık 2024)
+1. [ ] Go ile dosya manipülasyonları, okuma, yazma ( 2 Gün ) 
+   1. [ ] Go ile dosya okuma denemesi
+   2. [ ] Go ile normal ve pdf dosya okuma
+   3. [ ] Go ile dosya oluşturma
+   4. [ ] Go ile pdf manipülasyonları (?)
 2. [ ] Dosya şifreleme denemeleri
 
 
